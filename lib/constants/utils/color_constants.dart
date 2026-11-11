@@ -1,0 +1,39 @@
+import 'package:sudoku/constants/utils/export_file.dart';
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+/// SUDOKU COLOURS — MATCHED TO THE REFERENCE SCREENSHOT
+///////////////////////////////////////////////////////////////////////////////////////////////////
+class AppColors {
+  AppColors._();
+
+  static const Color background = Color(0xFFFFFFFF);
+  static const Color surface = Color(0xFFF4F6FA);
+  static const Color textPrimary = Color(0xFF1F2430);
+  static const Color textMuted = Color(0xFF6B7280);
+
+  ///////////////////////////////////////////////////////////////////////////////////////////////////
+  /// BOARD
+  ///////////////////////////////////////////////////////////////////////////////////////////////////
+  static const Color boxBorder = Color(0xFF3C4150);
+  static const Color cellBorder = Color(0xFFC9CDD6);
+  static const Color cellSelected = Color(0xFFA5CBFA);
+  static const Color cellRelated = Color(0xFFE2E7F0);
+  static const Color cellSameValue = Color(0xFFC6D9F2);
+  static const Color cellError = Color(0xFFFBE1E1);
+
+  ///////////////////////////////////////////////////////////////////////////////////////////////////
+  /// DIGITS
+  ///////////////////////////////////////////////////////////////////////////////////////////////////
+  static const Color given = Color(0xFF1F2430);
+  static const Color entered = Color(0xFF2F6FD6);
+  static const Color wrong = Color(0xFFE5484D);
+  static const Color note = Color(0xFF6B7280);
+
+  ///////////////////////////////////////////////////////////////////////////////////////////////////
+  /// ACCENTS
+  ///////////////////////////////////////////////////////////////////////////////////////////////////
+  static const Color primary = Color(0xFF2F6FD6);
+  static const Color badge = Color(0xFFE5484D);
+  static const Color locked = Color(0xFFB8BEC9);
+  static const Color success = Color(0xFF2E9E5B);
+}

@@ -1,0 +1,11 @@
+import 'package:sudoku/constants/utils/export_file.dart';
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+/// GAME REPOSITORY PROVIDER
+///////////////////////////////////////////////////////////////////////////////////////////////////
+final gameRepositoryProvider = Provider<GameRepositoryAbstract>(
+  (ref) => GameRepositoryImpl(
+    ref.watch(puzzleSourceProvider),
+    ref.watch(progressLocalSourceProvider),
+  ),
+);
